@@ -70,49 +70,6 @@ let cat = new Cat()
 cat.says('hello') //cat says hello
 
 
-p('------------------------------')
-//
-// arrow function 箭头函数？？，它的出现不仅仅是一些语法糖上的简洁，同时是要解决 var me = this; me.attr 这样的写法的尴尬。
-//
-//ES5:
-function fun(i) {
-  return i + 1
-}
-//ES6:
-(i) => i + 1
-
-//ES5
-function fun(x, y) {
-  x++
-  y--
-  return x + y
-}
-//ES6
-(x, y) => {
-  x++, y--,
-  return x + y
-}
-
-//ES5，此过程会报错，因为 this.type 指向的是 setTimeout 的 this，即 window
-class Animal {
-  says(say) {
-    setTimeout(function () {
-      console.log(this.type + ' says ' + say)
-    }, 1000)
-  }
-}
-//ES6,并不是因为箭头函数内部有绑定this的机制，实际原因是箭头函数根本没有自己的this，它的this是继承外面的，因此内部的this就是外层代码块的this。
-class Animal {
-  says(say) {
-    setTimeout(
-      ()=> {
-        console.log(this.type + ' says ' + say)
-      }, 1000
-    )
-  }
-}
-
-
 //
 // template string，解决插入大量的 html 内容到文档之中，使用 `` 与 ${}
 //
@@ -142,6 +99,7 @@ p(c) //'ES6'，即 c = b.a
 // reset 是一个集？对于 ES6 来说，ES5 中的 arguments 已成过去式
 //
 function reset(...args){
+  p(args)
   p(args)
 }
 reset('a','b','c') // ['a','b','c']

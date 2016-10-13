@@ -7,6 +7,7 @@
 ##      相关链接
 * [阮一峰 ES6 入门](http://es6.ruanyifeng.com/?search=export&x=0&y=0)
 * [segmentfault.com ES6 介绍](https://segmentfault.com/a/1190000002904199)
+    - 介绍较浅，已读（100%）
 * [infoQ ES6 介绍](http://www.infoq.com/cn/articles/es6-in-depth-an-introduction)
 * [ES6 新特性](http://www.cnblogs.com/Wayou/p/es6_new_features.html)
 * [汇智网 ES6 全介绍](http://www.hubwiz.com/course/5594e91ac086935f4a6fb8ef/)
