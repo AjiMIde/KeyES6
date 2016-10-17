@@ -48,6 +48,39 @@ var fun5 = () => {
   })
 }
 
+// 参数默认值：
+var fun6 = (para = 'aji') => {
+  //do with 'aji'
+}
+
+// 相当于：
+var fun6 = function(para){
+  para = para || 'aji'
+}
+
+// 不定参：
+var fun7 = (...x) => {
+  //do with 'array x'
+}
+
+// 相当于：
+var fun7 = function(){
+  //do with 'array arguments'
+}
+
+// 拓展参数 **重要！！*
+var fun8 = (a, b, c) => {
+  console.log(a + b + c)
+}
+var fun8_obj = {'hello', 'world', '!!'}
+
+// ES6
+fun8(...fun8_obj)
+
+// ES5
+fun8.apply(null, fun8_obj)
+
+
 //ES5，此过程会报错，因为 this.type 指向的是 setTimeout 的 this，即 window
 class Animal {
   says(say) {
@@ -56,6 +89,7 @@ class Animal {
     }, 1000)
   }
 }
+
 //ES6,并不是因为箭头函数内部有绑定this的机制，实际原因是箭头函数根本没有自己的this，它的this是继承外面的，因此内部的this就是外层代码块的this。
 class Animal {
   says(say) {

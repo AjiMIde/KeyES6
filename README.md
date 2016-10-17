@@ -7,12 +7,12 @@
 ##      相关链接
 * [Babel 官网](https://babeljs.io/docs/learn-es2015/)
 * [Github 最多星](https://github.com/lukehoban/es6features)
-* []()
 * [阮一峰 ES6 入门](http://es6.ruanyifeng.com/?search=export&x=0&y=0)
 * [segmentfault.com ES6 介绍](https://segmentfault.com/a/1190000002904199)
     - 介绍较浅，已读（100%）
 * [infoQ ES6 介绍](http://www.infoq.com/cn/articles/es6-in-depth-an-introduction)
 * [ES6 新特性](http://www.cnblogs.com/Wayou/p/es6_new_features.html)
+    - 比较全，已读（50%）
 * [汇智网 ES6 全介绍](http://www.hubwiz.com/course/5594e91ac086935f4a6fb8ef/)
 
 vue component 支持此版本的 javascript 写法（实际上是：vue component 就是得这么写）。使用 **ES6** 写的 **vue component** 并不能直接在浏览器
