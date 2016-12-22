@@ -20,7 +20,6 @@ while (1) {
 }
 console.log(name) // ES5
 
-
 /**
  * Const.
  * const 声明常量，一般用于第三方库声明的变量，一旦修改，就会报错。
