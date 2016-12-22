@@ -1,24 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-* 1 Êı×é
-	* [Êı×é»ù´¡](Array.md)
-	* [1.2 ³õÊ¹»¯Ò»¸öÏîÄ¿](1.2. Setting Up a Project.md)
-* 2 ÌØĞÔ
-	* [2.1 ES2015](2.1. ES2015.md)
-	* [2.2 ¾ÖÓòCSS](2.2. Scoped CSS.md)
-	* [2.3 PostCCSS](2.3. PostCSS.md)
-	* [2.4 ÈÈ¼ÓÔØ](2.4. Hot Reload.md)
-* 3 ÅäÖÃ
-	* [3.1 Ô¤´¦Àí](3.1. Pre-Processors.md)
-	* [3.2 URL×ÊÔ´¼¯´¦Àí](3.2. Asset URL Handling.md)
-	* [3.3 ¸ß¼¶ Loader ÅäÖÃ](3.3. Advanced Loader Configuration.md)
-	* [3.4 ¶îÍâµÄCSSÎÄ¼ş](3.4. Extracting CSS File.md)
-* 4 ¹¤×÷Á÷
-	* [4.1 ²úÆ·¹¹½¨](4.1. Production Build.md)
-	* [4.2 Linting](4.2. Linting.md)
-	* [4.3 ²âÊÔ](4.3. Testing.md)
-	* [4.4 Ê¹ÓÃ Mocks ²âÊÔ](4.4. Testing with Mocks.md)
-* 5 ÅäÖÃ²Î¿¼
-	* [5.1 ÅäÖÃ²Î¿¼](5. Options Reference.md)
+* 0 åŸºç¡€è¯­æ³•ï¼ˆBasicï¼‰
+	* [å˜é‡](Array.md)
+* 1 æ•°ç»„ï¼ˆArrayï¼‰
+	* [æ•°ç»„åŸºç¡€](Array.md)
+* 2 å‡½æ•° function
+	* [å‡½æ•°ï¼ˆç®­å¤´å‡½æ•° Arrow Functionï¼‰](Function.md)
+* 3 ç±» Class
+	* [ç±»çš„ä½¿ç”¨](Class.md)
 
