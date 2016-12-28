@@ -43,14 +43,27 @@ ary.splice()                // insert/delete/replace.....
 
 #### 数组循环
 ```
-// ES5
+// for in
 for (var index in ary) {
   var val = ary[index]
 }
-// ES6
+
+// forEach
+ary.forEach(function (val) {
+  //...do with val
+})
+
+//
+// ES6--避开以上两者的缺陷，可正确响应 break,continue,return 等
 for (val of ary){
   var val = val
 }
 ```
 
+#### 读取数组 keys/values/entries
+```
+["a", "b", "c"].entries() // iterator [0, "a"], [1,"b"], [2,"c"]
+["a", "b", "c"].keys() // iterator 0, 1, 2
+["a", "b", "c"].values() // iterator "a", "b", "c"
+```
 
