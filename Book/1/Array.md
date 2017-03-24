@@ -1,8 +1,8 @@
 ## 数组
 
 #### 初使化
-> 区别在于，*Array()* can be set a number length.And it is javascript 内置对象的构造函数定义(defined from inner object construct function)
 
+> 区别在于，_Array\(\)_ can be set a number length.And it is javascript 内置对象的构造函数定义\(defined from inner object construct function\)
 
 ```js
 //1. Array()
@@ -66,4 +66,6 @@ for (val of ary){
 ["a", "b", "c"].keys() // iterator 0, 1, 2
 ["a", "b", "c"].values() // iterator "a", "b", "c"
 ```
+
+
 
