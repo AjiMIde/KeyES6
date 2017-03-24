@@ -4,7 +4,7 @@
 > 区别在于，*Array()* can be set a number length.And it is javascript 内置对象的构造函数定义(defined from inner object construct function)
 
 
-```
+```js
 //1. Array()
 var ary = new Array()
 var ary = new Array(8)
@@ -15,7 +15,7 @@ var ary = []
 ```
 
 #### 数组方法
-```
+```js
 ary.toString()
 
 ary.toLocaleString()
@@ -42,7 +42,7 @@ ary.splice()                // insert/delete/replace.....
 ```
 
 #### 数组循环
-```
+```js
 // for in
 for (var index in ary) {
   var val = ary[index]
@@ -61,7 +61,7 @@ for (val of ary){
 ```
 
 #### 读取数组 keys/values/entries
-```
+```js
 ["a", "b", "c"].entries() // iterator [0, "a"], [1,"b"], [2,"c"]
 ["a", "b", "c"].keys() // iterator 0, 1, 2
 ["a", "b", "c"].values() // iterator "a", "b", "c"
